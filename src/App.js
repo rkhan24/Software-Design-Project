@@ -10,7 +10,9 @@ class App extends Component {
     return (
       <Router basename="/sd/">
         <div className="App">
-          <div className="App__Aside"></div>
+          <div className="App__Aside">
+            <img src="https://cdn.pixabay.com/photo/2012/04/13/14/34/oil-platform-32639__340.png" class="img"></img>
+          </div>
           <div className="App__Form">
             <div className="PageSwitcher">
                 <NavLink to="/sign-in" activeClassName="PageSwitcher__Item--Active" className="PageSwitcher__Item">Login</NavLink>
